@@ -4,7 +4,7 @@ Created on Tue Sep  7 16:23:29 2021
 
 @author: holly figueroa
 """
-# DSC520
+# DSC530
 # Exercise 2.1
 # Week 2 
 
