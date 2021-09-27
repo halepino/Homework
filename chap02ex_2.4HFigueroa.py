@@ -23,16 +23,18 @@ import first
 import thinkstats2
 import thinkplot
 
-
+# create function to report measure of central tendency for group comparison
 def compare_weights(live, firsts, non_first):
     
+    # mean for groups combined
     mean1 = live.totalwgt_lb.mean()
   
-    
+    # Central Tendency measures for first birth weights
     mean2 = firsts.totalwgt_lb.mean()
     var2 = firsts.totalwgt_lb.var()
     std2 = firsts.totalwgt_lb.std()
     
+    #Central Tendency for non-first birth weights
     mean3 = non_first.totalwgt_lb.mean()
     var3 = non_first.totalwgt_lb.var()
     std3 = non_first.totalwgt_lb.std()
